@@ -47,7 +47,7 @@ require('yargs').command({
  describe: 'listing all notes',
 
 handler(){
-   //console.log('Removing a note')
+   console.log('Removing a note')
    notesInfo.listNotes()
 }
 })
